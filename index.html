@@ -1,45 +1,19 @@
 <!DOCTYPE html>
 <html>
-  
-<style>
-  .scroll-wrapper {
+
+<body>
+  <p>2300</p>
+  <div class="scroll-wrapper">
+    <iframe src="https://appetize.io/embed/q8h7q62wp5cu6nt5rr88y38cdc?device=iphonex&scale=100&autoplay=true&orientation=portrait&deviceColor=black&screenOnly=true" width="375px" height="812px" frameborder="0" scrolling="no"
+	style="
     position: fixed; 
     right: 0; 
     bottom: 0; 
     left: 0;
     top: 0;
   	-webkit-overflow-scrolling: touch;
-    -webkit-transform:scale();
-    overflow-y: scroll;
-  }
-</style>
-
-<script type="application/javascript">
-
-function resizeIFrameToFitContent( iFrame ) {
-
-    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-}
-
-window.addEventListener('DOMContentLoaded', function(e) {
-
-    var iFrame = document.getElementById( 'iFrame1' );
-    resizeIFrameToFitContent( iFrame );
-
-    // or, to resize all iframes:
-    var iframes = document.querySelectorAll("iframe");
-    for( var i = 0; i < iframes.length; i++) {
-        resizeIFrameToFitContent( iframes[i] );
-    }
-} );
-
-</script>
-
-<body>
-  <p>2105</p>
-  <div class="scroll-wrapper">
-    <iframe src="https://appetize.io/embed/q8h7q62wp5cu6nt5rr88y38cdc?device=iphonex&scale=100&autoplay=true&orientation=portrait&deviceColor=black&screenOnly=true" width="375px" height="400px" frameborder="0" scrolling="no"></iframe>
+    overflow-y: scroll;	"	
+	></iframe>
   </div>
 </body>
 </html>
